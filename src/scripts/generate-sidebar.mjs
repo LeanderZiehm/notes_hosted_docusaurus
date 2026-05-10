@@ -27,8 +27,8 @@ for (const line of lines) {
 
   if (linkMatch && currentCategory) {
     const path = linkMatch[2]
-      .replace(/\.md$/, '')
-      .replace(/README$/, 'index');
+      .replace(/\.md$/, '');
+      // .replace(/README$/, 'index');
 
     currentCategory.items.push(path);
   }
