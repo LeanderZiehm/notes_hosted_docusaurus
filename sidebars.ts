@@ -83,9 +83,9 @@ const sidebars = {
   },
   {
     "type": "category",
-    "label": "Personal",
+    "label": "Problem Solving",
     "items": [
-      "personal/keyboard-shortcuts"
+      "problem-solving/problem-solving"
     ]
   },
   {
@@ -137,6 +137,13 @@ const sidebars = {
       "linux/debian-package-sizes",
       "linux/virtualization",
       "linux/suspend-mode"
+    ]
+  },
+  {
+    "type": "category",
+    "label": "Personal",
+    "items": [
+      "personal/keyboard-shortcuts"
     ]
   },
   {
