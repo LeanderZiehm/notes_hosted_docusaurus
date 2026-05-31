@@ -4,6 +4,8 @@ on:
   repository_dispatch:
     types: [repo-a-updated]
 
+  workflow_dispatch:   # manual trigger for testing
+
 permissions:
   contents: write   # required to push commits
 
