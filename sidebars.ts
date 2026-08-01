@@ -116,15 +116,25 @@ const sidebars: SidebarsConfig = {
       "05-linux/linux-encryption-secrets-passwords",
       "05-linux/virtualization",
       "05-linux/linux-workflow",
-      "05-linux/linux-ip",
+      {
+        "type": "category",
+        "label": "Linux Networking",
+        "collapsed": true,
+        "items": [
+          "05-linux/linux-ip/linux-proxy",
+          "05-linux/linux-ip/network-devices"
+        ],
+        "link": {
+          "type": "doc",
+          "id": "05-linux/linux-ip/README"
+        }
+      },
       "05-linux/linux-commands",
       "05-linux/install-packages",
       "05-linux/linux-environment-variables",
       "05-linux/page-2",
       "05-linux/linux-journal",
       "05-linux/linux-folders-and-logs",
-      "05-linux/network-devices",
-      "05-linux/linux-proxy",
       "05-linux/page-1",
       {
         "type": "category",
