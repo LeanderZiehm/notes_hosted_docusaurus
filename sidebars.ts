@@ -112,10 +112,26 @@ const sidebars: SidebarsConfig = {
     "label": "05-Linux",
     "collapsed": true,
     "items": [
-      "05-linux/linux-users",
-      "05-linux/linux-encryption-secrets-passwords",
-      "05-linux/virtualization",
-      "05-linux/linux-workflow",
+      {
+        "type": "category",
+        "label": "Linux Base",
+        "collapsed": true,
+        "items": [
+          "05-linux/linux-base/linux-users",
+          "05-linux/linux-base/linux-commands",
+          "05-linux/linux-base/linux-folders-and-logs",
+          "05-linux/linux-base/linux-process-memory",
+          "05-linux/linux-base/install-packages",
+          "05-linux/linux-base/virtualization",
+          "05-linux/linux-base/page-1",
+          "05-linux/linux-base/linux-journal",
+          "05-linux/linux-base/suspend-mode"
+        ],
+        "link": {
+          "type": "doc",
+          "id": "05-linux/linux-base/README"
+        }
+      },
       {
         "type": "category",
         "label": "Linux Networking",
@@ -129,27 +145,19 @@ const sidebars: SidebarsConfig = {
           "id": "05-linux/linux-ip/README"
         }
       },
-      "05-linux/linux-commands",
-      "05-linux/install-packages",
-      "05-linux/linux-environment-variables",
       "05-linux/page-2",
-      "05-linux/linux-journal",
-      "05-linux/linux-folders-and-logs",
-      "05-linux/page-1",
       {
         "type": "category",
-        "label": "Other Linux Topics",
+        "label": "Linux Security",
         "collapsed": true,
         "items": [
-          "05-linux/other/suspend-mode"
+          "05-linux/linux-security/linux-stats-info"
         ],
         "link": {
           "type": "doc",
-          "id": "05-linux/other/README"
+          "id": "05-linux/linux-security/README"
         }
-      },
-      "05-linux/linux-process-memory",
-      "05-linux/linux-stats-info"
+      }
     ]
   },
   {
