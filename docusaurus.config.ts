@@ -23,10 +23,15 @@ const config: Config = {
       defer: true,
       'data-website-id': 'f6c43e3f-ed36-41a9-a120-c63cf96bf025',
     },
+    {
+      src: '/js/searchFromUrl.js',
+      defer: true,
+    }
   ],
 
+  // todo add pix
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://notes.leanderziehm.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',

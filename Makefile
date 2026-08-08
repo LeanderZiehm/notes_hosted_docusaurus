@@ -1,3 +1,6 @@
+all:
+	update install build
+
 2 build:
 	node src/scripts/generate-sidebar.mjs
 	npm run build
@@ -11,3 +14,7 @@
 	npm i
 #	git pull
 #	git submodule update --remote
+
+# update-dependencies:
+# 	npx npm-check-updates
+# 	npx ncu --doctor -u
