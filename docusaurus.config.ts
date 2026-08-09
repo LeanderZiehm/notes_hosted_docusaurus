@@ -133,7 +133,7 @@ const config: Config = {
       //     ],
       //   },
       // ],
-      // copyright: `Leander Ziehm`,
+       copyright: `<img src="https://pix.leanderziehm.com/docusaurus?url=notes.leanderziehm.com">`,
     },
     prism: {
       theme: prismThemes.github,
