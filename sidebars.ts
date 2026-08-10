@@ -31,7 +31,8 @@ const sidebars: SidebarsConfig = {
       "01-full-stack/tech-stack",
       "01-full-stack/react",
       "01-full-stack/node.js-express",
-      "01-full-stack/container-images"
+      "01-full-stack/container-images",
+      "01-full-stack/testing-e2e"
     ]
   },
   {
