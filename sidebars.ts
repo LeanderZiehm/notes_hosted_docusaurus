@@ -25,24 +25,15 @@ const sidebars: SidebarsConfig = {
   },
   {
     "type": "category",
-    "label": "01-Full-Stack",
+    "label": "04-System-Administration",
     "collapsed": true,
     "items": [
-      "01-full-stack/tech-stack",
-      "01-full-stack/react",
-      "01-full-stack/node.js-express",
-      "01-full-stack/container-images",
-      "01-full-stack/testing-e2e"
-    ]
-  },
-  {
-    "type": "category",
-    "label": "Projects",
-    "collapsed": true,
-    "items": [
-      "projects/mini-tasks-project-ideas",
-      "projects/deployed-projects",
-      "projects/project-personal-tracker"
+      "04-system-administration/podman",
+      "04-system-administration/nginx",
+      "04-system-administration/firewall",
+      "04-system-administration/postgesql-on-linux",
+      "04-system-administration/cloud",
+      "04-system-administration/apps"
     ]
   },
   {
@@ -50,6 +41,21 @@ const sidebars: SidebarsConfig = {
     "label": "03-Programming-Languages",
     "collapsed": true,
     "items": [
+      {
+        "type": "category",
+        "label": "Python",
+        "collapsed": true,
+        "items": [
+          "03-programming-languages/python/setup",
+          "03-programming-languages/python/pip-and-uv",
+          "03-programming-languages/python/python-language-features",
+          "03-programming-languages/python/memory-inspection"
+        ],
+        "link": {
+          "type": "doc",
+          "id": "03-programming-languages/python/README"
+        }
+      },
       {
         "type": "category",
         "label": "Typescript",
@@ -78,34 +84,29 @@ const sidebars: SidebarsConfig = {
           "id": "03-programming-languages/java/README"
         }
       },
-      {
-        "type": "category",
-        "label": "Python",
-        "collapsed": true,
-        "items": [
-          "03-programming-languages/python/setup",
-          "03-programming-languages/python/pip-and-uv",
-          "03-programming-languages/python/python-language-features",
-          "03-programming-languages/python/memory-inspection"
-        ],
-        "link": {
-          "type": "doc",
-          "id": "03-programming-languages/python/README"
-        }
-      },
       "03-programming-languages/sql"
     ]
   },
   {
     "type": "category",
-    "label": "04-System-Administration",
+    "label": "01-Full-Stack",
     "collapsed": true,
     "items": [
-      "04-system-administration/podman",
-      "04-system-administration/nginx",
-      "04-system-administration/firewall",
-      "04-system-administration/postgesql-on-linux",
-      "04-system-administration/cloud"
+      "01-full-stack/tech-stack",
+      "01-full-stack/react",
+      "01-full-stack/node.js-express",
+      "01-full-stack/container-images",
+      "01-full-stack/testing-e2e"
+    ]
+  },
+  {
+    "type": "category",
+    "label": "Projects",
+    "collapsed": true,
+    "items": [
+      "projects/mini-tasks-project-ideas",
+      "projects/deployed-projects",
+      "projects/project-personal-tracker"
     ]
   },
   {
