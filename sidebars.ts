@@ -33,7 +33,9 @@ const sidebars: SidebarsConfig = {
       "04-system-administration/firewall",
       "04-system-administration/postgesql-on-linux",
       "04-system-administration/cloud",
-      "04-system-administration/apps"
+      "04-system-administration/ssh",
+      "04-system-administration/apps",
+      "04-system-administration/networking"
     ]
   },
   {
@@ -186,7 +188,6 @@ const sidebars: SidebarsConfig = {
     "items": [
       "08-terminal-cli-tools/git",
       "08-terminal-cli-tools/tmux",
-      "08-terminal-cli-tools/ssh",
       "08-terminal-cli-tools/vim",
       "08-terminal-cli-tools/nmap",
       "08-terminal-cli-tools/bash",
