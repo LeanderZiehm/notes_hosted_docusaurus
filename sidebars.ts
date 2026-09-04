@@ -28,14 +28,14 @@ const sidebars: SidebarsConfig = {
     "label": "04-System-Administration",
     "collapsed": true,
     "items": [
+      "04-system-administration/networking",
+      "04-system-administration/ssh",
       "04-system-administration/podman",
       "04-system-administration/nginx",
       "04-system-administration/firewall",
       "04-system-administration/postgesql-on-linux",
       "04-system-administration/cloud",
-      "04-system-administration/ssh",
-      "04-system-administration/apps",
-      "04-system-administration/networking"
+      "04-system-administration/apps"
     ]
   },
   {
